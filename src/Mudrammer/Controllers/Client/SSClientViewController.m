@@ -1026,6 +1026,10 @@ typedef void (^SPLSettingsCloseBlock) (void);
             if ([del respondsToSelector:@selector(clientDidConnect:)]) {
                 [del clientDidConnect:self];
             }
+
+            // disable the idle timer
+            [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
+            NSLog(@"setIdleTimerDisabled: YES");
         });
     }];
 }
@@ -1078,6 +1082,10 @@ typedef void (^SPLSettingsCloseBlock) (void);
             if ([del respondsToSelector:@selector(clientDidDisconnect:)]) {
                 [del clientDidDisconnect:self];
             }
+
+            // re-enable the idle timer
+            [[UIApplication sharedApplication] setIdleTimerDisabled:NO];
+            NSLog(@"setIdleTimerDisabled: NO");
         });
     }];
 }
