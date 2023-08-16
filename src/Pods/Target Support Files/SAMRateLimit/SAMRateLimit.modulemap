@@ -1,0 +1,6 @@
+framework module SAMRateLimit {
+  umbrella header "SAMRateLimit-umbrella.h"
+
+  export *
+  module * { export * }
+}

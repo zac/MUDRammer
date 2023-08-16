@@ -12,8 +12,8 @@
 #import "SSRadialControl.h"
 #import "SSWorldDisplayController.h"
 #import <IFTTTSplashView.h>
-#import <HockeySDK.h>
 #import <Keys/MudrammerKeys.h>
+#import <MagicalRecord/MagicalRecord.h>
 
 @interface SSAppDelegate ()
 + (void) setupCoreData;
@@ -76,16 +76,7 @@
 - (void) ss_willFinishLaunchingWithOptions:(NSDictionary *)options {
     [[IFTTTSplashView sharedSplash] showSplash];
 
-    BITHockeyManager *manager = [BITHockeyManager sharedHockeyManager];
-    [manager.authenticator setIdentificationType:BITAuthenticatorIdentificationTypeAnonymous];
-    [manager.crashManager setCrashManagerStatus:BITCrashManagerStatusAutoSend];
-
     MudrammerKeys *keys = [MudrammerKeys new];
-
-    [ARAnalytics setupWithAnalytics:@{
-          ARHockeyAppBetaID   : keys.hOCKEYBETA_KEY,
-          ARHockeyAppLiveID   : keys.hOCKEYLIVE_KEY,
-    }];
 
     [self.class setupCoreData];
 
@@ -177,10 +168,7 @@ didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSe
     [self.notificationObserver didRegisterUserNotificationSettings:notificationSettings];
 }
 
-- (void)application:(UIApplication *)application
-handleActionWithIdentifier:(NSString *)identifier
-forLocalNotification:(UILocalNotification *)notification
-  completionHandler:(void (^)())completionHandler {
+- (void)application:(UIApplication *)application handleActionWithIdentifier:(NSString *)identifier forLocalNotification:(UILocalNotification *)notification completionHandler:(void (^)(void))completionHandler {
     [self.notificationObserver handleActionWithIdentifier:identifier
                                      forLocalNotification:notification
                                                completion:completionHandler];

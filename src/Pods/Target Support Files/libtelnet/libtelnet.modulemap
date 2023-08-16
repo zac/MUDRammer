@@ -1,0 +1,6 @@
+framework module libtelnet {
+  umbrella header "libtelnet-umbrella.h"
+
+  export *
+  module * { export * }
+}

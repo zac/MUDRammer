@@ -13,7 +13,7 @@
 
 // Pod dependencies
 #import <EXTScope.h>
-#import <MagicalRecord.h>
+#import <MagicalRecord/MagicalRecord.h>
 #import <BlocksKit/BlocksKit.h>
 
 // Core

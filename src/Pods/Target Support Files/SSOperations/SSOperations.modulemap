@@ -1,0 +1,6 @@
+framework module SSOperations {
+  umbrella header "SSOperations-umbrella.h"
+
+  export *
+  module * { export * }
+}

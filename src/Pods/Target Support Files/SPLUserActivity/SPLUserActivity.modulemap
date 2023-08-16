@@ -1,0 +1,6 @@
+framework module SPLUserActivity {
+  umbrella header "SPLUserActivity-umbrella.h"
+
+  export *
+  module * { export * }
+}

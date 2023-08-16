@@ -167,7 +167,7 @@ forHeaderFooterViewReuseIdentifier:[SSBaseHeaderFooterView identifier]];
     return YES;
 }
 
-- (NSUInteger)supportedInterfaceOrientations {
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
     return UIInterfaceOrientationMaskAll;
 }
 

@@ -7,7 +7,7 @@
 //
 
 #import "SSMagicManagedObject.h"
-#import <MagicalRecord.h>
+#import "MagicalRecord.h"
 
 @implementation SSMagicManagedObject
 

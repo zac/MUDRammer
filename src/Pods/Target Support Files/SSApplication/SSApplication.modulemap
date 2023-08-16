@@ -1,0 +1,6 @@
+framework module SSApplication {
+  umbrella header "SSApplication-umbrella.h"
+
+  export *
+  module * { export * }
+}

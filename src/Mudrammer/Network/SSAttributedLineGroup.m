@@ -129,7 +129,7 @@
 }
 
 + (instancetype)itemWithBlankLine {
-    SSAttributedLineGroupItem *item = [self itemWithAttributedString:[NSAttributedString new]];
+    SSAttributedLineGroupItem *item = [self itemWithAttributedString:[[NSAttributedString alloc] initWithString:@"\n"]];
     item.endsInNewLine = YES;
     return item;
 }

@@ -91,7 +91,7 @@
 		5EA806B91645F401008D5A9E /* CMFontSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA806AC1645F401008D5A9E /* CMFontSelectTableViewController.m */; };
 		5EA806BB1645F401008D5A9E /* CMFontStyleSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA806AF1645F401008D5A9E /* CMFontStyleSelectTableViewController.m */; };
 		5EA806BF1645F401008D5A9E /* CMUpDownControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA806B51645F401008D5A9E /* CMUpDownControl.m */; };
-		5EB8209419D247CA00102531 /* Pods-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EB8209319D247CA00102531 /* Pods-acknowledgements.plist */; };
+		5EB8209419D247CA00102531 /* Pods-MUDRammer-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EB8209319D247CA00102531 /* Pods-MUDRammer-acknowledgements.plist */; };
 		5EB9A01018C3DB7100FD8076 /* SSGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9A00F18C3DB7100FD8076 /* SSGrowingTextView.m */; };
 		5ED259F11A29714800E1BDAE /* SPLMSSPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED259F01A29714800E1BDAE /* SPLMSSPViewController.m */; };
 		5ED259F41A29729700E1BDAE /* SPLMUDTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED259F31A29729700E1BDAE /* SPLMUDTitleView.m */; };
@@ -126,7 +126,8 @@
 		5EF10BFF173D635900154A2B /* SSMRConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF10BFE173D635900154A2B /* SSMRConstants.m */; };
 		5EF7691416A212FE004D291E /* DefaultWorlds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EF7691316A212FE004D291E /* DefaultWorlds.plist */; };
 		5EFC45CC19F3263C00D0CB2B /* FiraMono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EFC45CB19F3263C00D0CB2B /* FiraMono.ttf */; };
-		C91115A198424A01A17879E7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3DB66488E7424BA7E4D719 /* libPods.a */; };
+		890F23A9BC7AB014BD78D74B /* libPods-MUDRammer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 164765E5AEDAC05AA8C9F5AB /* libPods-MUDRammer.a */; };
+		CE35218CDA4E82F73DD69029 /* libPods-MRTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25668BAE05481CF435E271BF /* libPods-MRTests.a */; };
 		E903E73E1B41BAE800F07B10 /* MRStringMatchingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E903E73D1B41BAE800F07B10 /* MRStringMatchingTests.m */; };
 		E9212DAA1B12479F003DB3FF /* MRNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9212DA91B12479F003DB3FF /* MRNotificationTests.m */; };
 		E9212DAC1B143FE4003DB3FF /* MRWorldDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9212DAB1B143FE4003DB3FF /* MRWorldDisplayTests.m */; };
@@ -238,7 +239,6 @@
 		E9CAA35B1ABF9A8A00E36BE3 /* zoom.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9CAA3071ABF9A8A00E36BE3 /* zoom.wav */; };
 		E9ED95651B0CFB110065C7F2 /* SPLTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED95641B0CFB110065C7F2 /* SPLTestAppDelegate.m */; };
 		E9ED95671B0E5F960065C7F2 /* youfailedme.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9ED95661B0E5F960065C7F2 /* youfailedme.wav */; };
-		F800952F9EE241D78CCFDF31 /* libPods-MRTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 764F0728FFD24A3A8234C435 /* libPods-MRTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -252,10 +252,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		27B9E751E1979B62E08CFFC3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		2D3DB66488E7424BA7E4D719 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5289A75DC4FBA69766BC8E84 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		570DD6063A3F75D1BBAB5465 /* Pods-MRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MRTests/Pods-MRTests.release.xcconfig"; sourceTree = "<group>"; };
+		0614D3A8317FFA05F21550F0 /* Pods-MUDRammer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MUDRammer.release.xcconfig"; path = "Target Support Files/Pods-MUDRammer/Pods-MUDRammer.release.xcconfig"; sourceTree = "<group>"; };
+		164765E5AEDAC05AA8C9F5AB /* libPods-MUDRammer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MUDRammer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25668BAE05481CF435E271BF /* libPods-MRTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MRTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D5FEC27297094B222BB66C /* Pods-MRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRTests.debug.xcconfig"; path = "Target Support Files/Pods-MRTests/Pods-MRTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E004D9D194D522A00EE1448 /* SPLImagesCatalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLImagesCatalog.h; sourceTree = "<group>"; };
 		5E004D9E194D522A00EE1448 /* SPLImagesCatalog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLImagesCatalog.m; sourceTree = "<group>"; };
 		5E004DA0194D53DA00EE1448 /* SSANSIEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSANSIEngine.h; sourceTree = "<group>"; };
@@ -408,7 +408,7 @@
 		5EA806AF1645F401008D5A9E /* CMFontStyleSelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMFontStyleSelectTableViewController.m; sourceTree = "<group>"; };
 		5EA806B41645F401008D5A9E /* CMUpDownControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMUpDownControl.h; sourceTree = "<group>"; };
 		5EA806B51645F401008D5A9E /* CMUpDownControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMUpDownControl.m; sourceTree = "<group>"; };
-		5EB8209319D247CA00102531 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Pods-acknowledgements.plist"; path = "Pods/Target Support Files/Pods/Pods-acknowledgements.plist"; sourceTree = SOURCE_ROOT; };
+		5EB8209319D247CA00102531 /* Pods-MUDRammer-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Pods-MUDRammer-acknowledgements.plist"; path = "Pods/Target Support Files/Pods-MUDRammer/Pods-MUDRammer-acknowledgements.plist"; sourceTree = SOURCE_ROOT; };
 		5EB9A00E18C3DB7100FD8076 /* SSGrowingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSGrowingTextView.h; sourceTree = "<group>"; };
 		5EB9A00F18C3DB7100FD8076 /* SSGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSGrowingTextView.m; sourceTree = "<group>"; };
 		5ED259EF1A29714800E1BDAE /* SPLMSSPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLMSSPViewController.h; sourceTree = "<group>"; };
@@ -460,10 +460,8 @@
 		5EF10BFE173D635900154A2B /* SSMRConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSMRConstants.m; sourceTree = "<group>"; };
 		5EF7691316A212FE004D291E /* DefaultWorlds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultWorlds.plist; sourceTree = "<group>"; };
 		5EFC45CB19F3263C00D0CB2B /* FiraMono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FiraMono.ttf; sourceTree = "<group>"; };
-		764F0728FFD24A3A8234C435 /* libPods-MRTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MRTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C8A5D28B080F7F36D59EEB8 /* Pods-MRTests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRTests.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-MRTests/Pods-MRTests.adhoc.xcconfig"; sourceTree = "<group>"; };
-		851D48CB1589F81B59692C20 /* Pods.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.adhoc.xcconfig; path = "Pods/Target Support Files/Pods/Pods.adhoc.xcconfig"; sourceTree = "<group>"; };
-		E1F3C0F86F6FD8433FC476B5 /* Pods-MRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MRTests/Pods-MRTests.debug.xcconfig"; sourceTree = "<group>"; };
+		780E8227BD7C09CB3A30E024 /* Pods-MUDRammer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MUDRammer.debug.xcconfig"; path = "Target Support Files/Pods-MUDRammer/Pods-MUDRammer.debug.xcconfig"; sourceTree = "<group>"; };
+		95F1A9033FE3540B01EF17CE /* Pods-MRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRTests.release.xcconfig"; path = "Target Support Files/Pods-MRTests/Pods-MRTests.release.xcconfig"; sourceTree = "<group>"; };
 		E903E73D1B41BAE800F07B10 /* MRStringMatchingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRStringMatchingTests.m; sourceTree = "<group>"; };
 		E9212DA91B12479F003DB3FF /* MRNotificationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNotificationTests.m; sourceTree = "<group>"; };
 		E9212DAB1B143FE4003DB3FF /* MRWorldDisplayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRWorldDisplayTests.m; sourceTree = "<group>"; };
@@ -599,7 +597,7 @@
 			files = (
 				5E4F3CD1198D98650041A436 /* UIKit.framework in Frameworks */,
 				5E4F3CD0198D98650041A436 /* Foundation.framework in Frameworks */,
-				F800952F9EE241D78CCFDF31 /* libPods-MRTests.a in Frameworks */,
+				CE35218CDA4E82F73DD69029 /* libPods-MRTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,7 +616,7 @@
 				5E591C7E1634C80C00F2EB9F /* UIKit.framework in Frameworks */,
 				5E591C801634C80C00F2EB9F /* Foundation.framework in Frameworks */,
 				5E591C821634C80C00F2EB9F /* CoreGraphics.framework in Frameworks */,
-				C91115A198424A01A17879E7 /* libPods.a in Frameworks */,
+				890F23A9BC7AB014BD78D74B /* libPods-MUDRammer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -709,7 +707,7 @@
 				5E4F3CD2198D98650041A436 /* MRTests */,
 				5E591C7C1634C80C00F2EB9F /* Frameworks */,
 				5E591C7A1634C80C00F2EB9F /* Products */,
-				B93E51C2790B9C760BD69CF0 /* Pods */,
+				6D1653EFF06FA281FCC6F10D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -737,8 +735,8 @@
 				5E591C7D1634C80C00F2EB9F /* UIKit.framework */,
 				5E591C7F1634C80C00F2EB9F /* Foundation.framework */,
 				5E591C811634C80C00F2EB9F /* CoreGraphics.framework */,
-				2D3DB66488E7424BA7E4D719 /* libPods.a */,
-				764F0728FFD24A3A8234C435 /* libPods-MRTests.a */,
+				25668BAE05481CF435E271BF /* libPods-MRTests.a */,
+				164765E5AEDAC05AA8C9F5AB /* libPods-MUDRammer.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -780,7 +778,7 @@
 				5E591C891634C80C00F2EB9F /* main.m */,
 				5E591C8B1634C80C00F2EB9F /* Mudrammer-Prefix.pch */,
 				5E591D2A16366F1E00F2EB9F /* MUDRammer.entitlements */,
-				5EB8209319D247CA00102531 /* Pods-acknowledgements.plist */,
+				5EB8209319D247CA00102531 /* Pods-MUDRammer-acknowledgements.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -1083,17 +1081,15 @@
 			path = fr.lproj;
 			sourceTree = "<group>";
 		};
-		B93E51C2790B9C760BD69CF0 /* Pods */ = {
+		6D1653EFF06FA281FCC6F10D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5289A75DC4FBA69766BC8E84 /* Pods.debug.xcconfig */,
-				27B9E751E1979B62E08CFFC3 /* Pods.release.xcconfig */,
-				851D48CB1589F81B59692C20 /* Pods.adhoc.xcconfig */,
-				E1F3C0F86F6FD8433FC476B5 /* Pods-MRTests.debug.xcconfig */,
-				570DD6063A3F75D1BBAB5465 /* Pods-MRTests.release.xcconfig */,
-				7C8A5D28B080F7F36D59EEB8 /* Pods-MRTests.adhoc.xcconfig */,
+				42D5FEC27297094B222BB66C /* Pods-MRTests.debug.xcconfig */,
+				95F1A9033FE3540B01EF17CE /* Pods-MRTests.release.xcconfig */,
+				780E8227BD7C09CB3A30E024 /* Pods-MUDRammer.debug.xcconfig */,
+				0614D3A8317FFA05F21550F0 /* Pods-MUDRammer.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		E9CAA2B31ABF9A8A00E36BE3 /* Sounds */ = {
@@ -1195,11 +1191,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E4F3CDD198D98650041A436 /* Build configuration list for PBXNativeTarget "MRTests" */;
 			buildPhases = (
-				0B054BC29E144BF0857C4D3A /* Check Pods Manifest.lock */,
+				EA5295A9247A508ED1D5BA03 /* [CP] Check Pods Manifest.lock */,
 				5E4F3CCA198D98650041A436 /* Sources */,
 				5E4F3CCB198D98650041A436 /* Frameworks */,
 				5E4F3CCC198D98650041A436 /* Resources */,
-				E964897291304BA88DF04397 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1215,12 +1210,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E591C971634C80C00F2EB9F /* Build configuration list for PBXNativeTarget "MUDRammer" */;
 			buildPhases = (
+				4538D7745ACD992A2C7465A5 /* [CP] Check Pods Manifest.lock */,
 				5E9E3442194D305F0005BCBD /* Generate Asset Catalog Class */,
 				5E591C751634C80C00F2EB9F /* Sources */,
 				5E591C761634C80C00F2EB9F /* Frameworks */,
 				5E591C771634C80C00F2EB9F /* Resources */,
-				2D8004EB69EA429EA9A87B3F /* Copy Pods Resources */,
 				5E9E3446194D396F0005BCBD /* Warn about TODO and FIXME */,
+				2C97475651AC78A083F62854 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1254,6 +1250,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				fr,
 				it,
@@ -1331,7 +1328,7 @@
 				E9CAA33C1ABF9A8A00E36BE3 /* pageturnheavy.wav in Resources */,
 				5EEF31EB1853D62900FE33A1 /* monkey.ttf in Resources */,
 				5EEF31EE1853D62900FE33A1 /* saxmono.ttf in Resources */,
-				5EB8209419D247CA00102531 /* Pods-acknowledgements.plist in Resources */,
+				5EB8209419D247CA00102531 /* Pods-MUDRammer-acknowledgements.plist in Resources */,
 				E9CAA31D1ABF9A8A00E36BE3 /* clubdrumbeat.wav in Resources */,
 				E9CAA3331ABF9A8A00E36BE3 /* ididit.wav in Resources */,
 				E9CAA3241ABF9A8A00E36BE3 /* doorclose.wav in Resources */,
@@ -1401,34 +1398,65 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0B054BC29E144BF0857C4D3A /* Check Pods Manifest.lock */ = {
+		2C97475651AC78A083F62854 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MUDRammer/Pods-MUDRammer-resources.sh",
+				"${PODS_ROOT}/TOWebViewController/TOWebViewController/de.lproj",
+				"${PODS_ROOT}/TOWebViewController/TOWebViewController/en.lproj",
+				"${PODS_ROOT}/TOWebViewController/TOWebViewController/es.lproj",
+				"${PODS_ROOT}/TOWebViewController/TOWebViewController/fr.lproj",
+				"${PODS_ROOT}/TOWebViewController/TOWebViewController/ja.lproj",
+				"${PODS_ROOT}/TOWebViewController/TOWebViewController/ko.lproj",
+				"${PODS_ROOT}/TOWebViewController/TOWebViewController/pl.lproj",
+				"${PODS_ROOT}/TOWebViewController/TOWebViewController/zh-Hans.lproj",
+				"${PODS_ROOT}/TOWebViewController/TOWebViewController/zh-Hant.lproj",
+				"${PODS_ROOT}/VTAcknowledgementsViewController/VTAcknowledgementsViewController.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/uservoice-iphone-sdk/UserVoice.bundle",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/de.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ja.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ko.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pl.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hant.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VTAcknowledgementsViewController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UserVoice.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MUDRammer/Pods-MUDRammer-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D8004EB69EA429EA9A87B3F /* Copy Pods Resources */ = {
+		4538D7745ACD992A2C7465A5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MUDRammer-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		5E9E3442194D305F0005BCBD /* Generate Asset Catalog Class */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1442,7 +1470,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "DERIVEDDIR=\"${SRCROOT}/Mudrammer/DerivedSources\"\nmkdir -p \"$DERIVEDDIR\"\ncd \"$DERIVEDDIR\" && /usr/local/bin/objc-assetgen -p \"SPL\" \"${SRCROOT}/Mudrammer/Images.xcassets/\"\n";
+			shellScript = "DERIVEDDIR=\"${SRCROOT}/Mudrammer/DerivedSources\"\nmkdir -p \"$DERIVEDDIR\"\ncd \"$DERIVEDDIR\" && /opt/homebrew/bin/objc-assetgen -p \"SPL\" \"${SRCROOT}/Mudrammer/Images.xcassets/\"\n";
 		};
 		5E9E3446194D396F0005BCBD /* Warn about TODO and FIXME */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1458,19 +1486,26 @@
 			shellPath = /bin/sh;
 			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nfind \"${SRCROOT}/Mudrammer\" \\( -name \"*.h\" -or -name \"*.m\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
 		};
-		E964897291304BA88DF04397 /* Copy Pods Resources */ = {
+		EA5295A9247A508ED1D5BA03 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MRTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MRTests/Pods-MRTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1665,7 +1700,7 @@
 /* Begin XCBuildConfiguration section */
 		5E4F3CDE198D98650041A436 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1F3C0F86F6FD8433FC476B5 /* Pods-MRTests.debug.xcconfig */;
+			baseConfigurationReference = 42D5FEC27297094B222BB66C /* Pods-MRTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MUDRammer.app/MUDRammer";
 				CLANG_ENABLE_MODULES = YES;
@@ -1692,7 +1727,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "MRTests/MRTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -1701,7 +1736,7 @@
 		};
 		5E4F3CDF198D98650041A436 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 570DD6063A3F75D1BBAB5465 /* Pods-MRTests.release.xcconfig */;
+			baseConfigurationReference = 95F1A9033FE3540B01EF17CE /* Pods-MRTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MUDRammer.app/MUDRammer";
 				CLANG_ENABLE_MODULES = YES;
@@ -1725,7 +1760,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "MRTests/MRTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -1790,7 +1825,7 @@
 		};
 		5E591C981634C80C00F2EB9F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5289A75DC4FBA69766BC8E84 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 780E8227BD7C09CB3A30E024 /* Pods-MUDRammer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(SPLAppIconSuffix)";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1826,6 +1861,7 @@
 				GCC_PREFIX_HEADER = "Mudrammer/Supporting Files/Mudrammer-Prefix.pch";
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
@@ -1843,7 +1879,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				INFOPLIST_FILE = "Mudrammer/Supporting Files/Mudrammer-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1866,7 +1902,7 @@
 		};
 		5E591C991634C80C00F2EB9F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27B9E751E1979B62E08CFFC3 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 0614D3A8317FFA05F21550F0 /* Pods-MUDRammer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(SPLAppIconSuffix)";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1903,6 +1939,7 @@
 				GCC_PREFIX_HEADER = "Mudrammer/Supporting Files/Mudrammer-Prefix.pch";
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
@@ -1920,7 +1957,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				INFOPLIST_FILE = "Mudrammer/Supporting Files/Mudrammer-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";

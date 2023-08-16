@@ -1,0 +1,42 @@
+{
+  "name": "SPLCore",
+  "version": "1.0.1",
+  "summary": "Splinesoft shared bits.",
+  "homepage": "https://github.com/splinesoft/SPLCore",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jonathan Hersh": "jon@her.sh"
+  },
+  "source": {
+    "git": "https://github.com/splinesoft/SPLCore.git",
+    "tag": "1.0.1"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "SPLCore/**/*.{h,m}",
+  "frameworks": [
+    "UIKit",
+    "QuartzCore",
+    "AudioToolbox",
+    "CoreData"
+  ],
+  "dependencies": {
+    "BlocksKit": [
+      "~> 2.2"
+    ],
+    "MagicalRecord": [
+      "~> 2.3.0"
+    ],
+    "libextobjc/EXTScope": [
+      "~> 0.4.1"
+    ],
+    "libextobjc/RuntimeExtensions": [
+      "~> 0.4.1"
+    ]
+  }
+}
