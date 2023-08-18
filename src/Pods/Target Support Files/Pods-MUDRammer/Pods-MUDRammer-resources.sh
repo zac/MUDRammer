@@ -97,30 +97,10 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/TOWebViewController/TOWebViewController/de.lproj"
-  install_resource "${PODS_ROOT}/TOWebViewController/TOWebViewController/en.lproj"
-  install_resource "${PODS_ROOT}/TOWebViewController/TOWebViewController/es.lproj"
-  install_resource "${PODS_ROOT}/TOWebViewController/TOWebViewController/fr.lproj"
-  install_resource "${PODS_ROOT}/TOWebViewController/TOWebViewController/ja.lproj"
-  install_resource "${PODS_ROOT}/TOWebViewController/TOWebViewController/ko.lproj"
-  install_resource "${PODS_ROOT}/TOWebViewController/TOWebViewController/pl.lproj"
-  install_resource "${PODS_ROOT}/TOWebViewController/TOWebViewController/zh-Hans.lproj"
-  install_resource "${PODS_ROOT}/TOWebViewController/TOWebViewController/zh-Hant.lproj"
   install_resource "${PODS_ROOT}/VTAcknowledgementsViewController/VTAcknowledgementsViewController.bundle"
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/uservoice-iphone-sdk/UserVoice.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/TOWebViewController/TOWebViewController/de.lproj"
-  install_resource "${PODS_ROOT}/TOWebViewController/TOWebViewController/en.lproj"
-  install_resource "${PODS_ROOT}/TOWebViewController/TOWebViewController/es.lproj"
-  install_resource "${PODS_ROOT}/TOWebViewController/TOWebViewController/fr.lproj"
-  install_resource "${PODS_ROOT}/TOWebViewController/TOWebViewController/ja.lproj"
-  install_resource "${PODS_ROOT}/TOWebViewController/TOWebViewController/ko.lproj"
-  install_resource "${PODS_ROOT}/TOWebViewController/TOWebViewController/pl.lproj"
-  install_resource "${PODS_ROOT}/TOWebViewController/TOWebViewController/zh-Hans.lproj"
-  install_resource "${PODS_ROOT}/TOWebViewController/TOWebViewController/zh-Hant.lproj"
   install_resource "${PODS_ROOT}/VTAcknowledgementsViewController/VTAcknowledgementsViewController.bundle"
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/uservoice-iphone-sdk/UserVoice.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

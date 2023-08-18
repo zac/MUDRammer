@@ -1,17 +1,21 @@
 PODS:
-  - BlocksKit (2.2.5):
-    - BlocksKit/All (= 2.2.5)
-  - BlocksKit/All (2.2.5):
+  - BlocksKit (2.2.6):
+    - BlocksKit/All (= 2.2.6)
+  - BlocksKit/All (2.2.6):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
     - BlocksKit/MessageUI
+    - BlocksKit/QuickLook
     - BlocksKit/UIKit
-  - BlocksKit/Core (2.2.5)
-  - BlocksKit/DynamicDelegate (2.2.5)
-  - BlocksKit/MessageUI (2.2.5):
+  - BlocksKit/Core (2.2.6)
+  - BlocksKit/DynamicDelegate (2.2.6)
+  - BlocksKit/MessageUI (2.2.6):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
-  - BlocksKit/UIKit (2.2.5):
+  - BlocksKit/QuickLook (2.2.6):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.6):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
   - CocoaAsyncSocket (7.3.5)
@@ -44,17 +48,15 @@ PODS:
     - libextobjc/EXTScope (~> 0.4.1)
     - libextobjc/RuntimeExtensions (~> 0.4.1)
     - MagicalRecord (~> 2.3.0)
-  - SPLUserActivity (0.1.2)
   - SSAccessibility (0.2.0)
   - SSApplication (0.3.0)
   - SSDataSources (0.8.6)
   - SSOperations (0.1.0)
-  - TOWebViewController (2.0.17)
   - TTTAttributedLabel (1.13.1)
-  - uservoice-iphone-sdk (3.2.3)
   - VTAcknowledgementsViewController (0.14)
 
 DEPENDENCIES:
+  - BlocksKit (from `https://github.com/zac/BlocksKit.git`, branch `xcode-14.3.1-fixes`)
   - CocoaAsyncSocket (= 7.3.5)
   - DAKeyboardControl (= 2.4.0)
   - Expecta
@@ -70,23 +72,19 @@ DEPENDENCIES:
   - MyLilTimer (= 0.1.0)
   - OCMock
   - OSCache (= 1.2)
-  - QuickDialog/Core (from `https://github.com/escoz/QuickDialog.git`, branch `master`)
-  - QuickDialog/Extras (from `https://github.com/escoz/QuickDialog.git`, branch `master`)
+  - QuickDialog/Core (from `https://github.com/zac/QuickDialog.git`, branch `xcode-14.3.1-fixes`)
+  - QuickDialog/Extras (from `https://github.com/zac/QuickDialog.git`, branch `xcode-14.3.1-fixes`)
   - SAMRateLimit (= 0.2.0)
   - SPLCore (from `https://github.com/zac/SPLCore.git`, branch `xcode-14.3.1-fixes`)
-  - SPLUserActivity (= 0.1.2)
   - SSAccessibility (= 0.2.0)
   - SSApplication (= 0.3.0)
   - SSDataSources (= 0.8.6)
   - SSOperations (= 0.1.0)
-  - TOWebViewController (= 2.0.17)
   - TTTAttributedLabel (= 1.13.1)
-  - uservoice-iphone-sdk (= 3.2.3)
   - VTAcknowledgementsViewController (= 0.14)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - BlocksKit
     - CocoaAsyncSocket
     - DAKeyboardControl
     - Expecta
@@ -103,38 +101,41 @@ SPEC REPOS:
     - OCMock
     - OSCache
     - SAMRateLimit
-    - SPLUserActivity
     - SSAccessibility
     - SSApplication
     - SSDataSources
     - SSOperations
-    - TOWebViewController
     - TTTAttributedLabel
-    - uservoice-iphone-sdk
     - VTAcknowledgementsViewController
   https://github.com/splinesoft/specs.git:
     - libtelnet
 
 EXTERNAL SOURCES:
+  BlocksKit:
+    :branch: xcode-14.3.1-fixes
+    :git: https://github.com/zac/BlocksKit.git
   Keys:
     :path: Pods/CocoaPodsKeys
   QuickDialog:
-    :branch: master
-    :git: https://github.com/escoz/QuickDialog.git
+    :branch: xcode-14.3.1-fixes
+    :git: https://github.com/zac/QuickDialog.git
   SPLCore:
     :branch: xcode-14.3.1-fixes
     :git: https://github.com/zac/SPLCore.git
 
 CHECKOUT OPTIONS:
+  BlocksKit:
+    :commit: 4ef7afff8810660d4fdc7c8ebb03ec932f01d4f3
+    :git: https://github.com/zac/BlocksKit.git
   QuickDialog:
-    :commit: 9947f43797a1e2d8979d43a219d92172dee251ed
-    :git: https://github.com/escoz/QuickDialog.git
+    :commit: d23ed6bbbb8447c58b93f7afb81e82f7f113e8fe
+    :git: https://github.com/zac/QuickDialog.git
   SPLCore:
     :commit: 4db7651a03d551e56aee6e55fd95197370ac8269
     :git: https://github.com/zac/SPLCore.git
 
 SPEC CHECKSUMS:
-  BlocksKit: 8639b2848dd51c35c957af4d9fbdc7a769a1fc12
+  BlocksKit: 5fae06c13638d9fdb0bbddca3dabfe8f5aa735c5
   CocoaAsyncSocket: 94c582a5bef4bb0f51b6ebf3e1b561d9091a68ba
   DAKeyboardControl: 9d9bca22a5cc3c1d3cc61e24fbd208c3e84a3d2d
   Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
@@ -155,16 +156,13 @@ SPEC CHECKSUMS:
   QuickDialog: f0c3e254c91182fa3f91fdb479ccac4a11b459e1
   SAMRateLimit: ba2d40ccb3a4bf04e425035ef1ca88751d969e47
   SPLCore: 107538fcd6b97af995d5098a799b338c6404883a
-  SPLUserActivity: 32c59c4dbb0fdbbf428f3ee46d02e609ab2e3119
   SSAccessibility: 04f44a34d4a2ef3d6ec789e630d863027e48c6df
   SSApplication: a3eb1254ba6b7a11d1c022fd060041f3d4b1fee8
   SSDataSources: ebcf6e435a090f1a940c5d2042cfb3f369f98a1d
   SSOperations: 004a233cdc5f0b6ffb736fc5796dbea0dd285b2a
-  TOWebViewController: aada427e7eba199bbaee77ddee3243c8172f4053
   TTTAttributedLabel: 0a9e524c8d78301506c26affffc827429b833b25
-  uservoice-iphone-sdk: 349d9ef36d3c43939d28390b9e86bb32b65fe983
   VTAcknowledgementsViewController: 11a869dd69598a852f12699aeaf36e2589d3fc1b
 
-PODFILE CHECKSUM: 79db22c9ba2ef562759e3e43ed9ad251fddd1a20
+PODFILE CHECKSUM: c3299afa4d7bb9fa567e861513f630536ca98510
 
 COCOAPODS: 1.12.1

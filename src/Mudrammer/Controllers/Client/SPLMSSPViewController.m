@@ -11,7 +11,6 @@
 #import <TTTAttributedLabel.h>
 #import <Masonry.h>
 #import "NSDate+SPLAdditions.h"
-#import "SPLHandoffWebViewController.h"
 
 @interface SPLMSSPCell : SSBaseTableCell
 
@@ -123,10 +122,7 @@
                              }];
         }
     } else {
-        SPLHandoffWebViewController *webView = [[SPLHandoffWebViewController alloc] initWithURL:url];
-
-        [self.navigationController pushViewController:webView
-                                             animated:YES];
+        // nothing...
     }
 }
 

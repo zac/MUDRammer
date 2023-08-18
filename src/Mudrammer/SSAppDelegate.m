@@ -8,7 +8,6 @@
 
 #import "SSAppDelegate.h"
 #import "SSClientContainer.h"
-#import <UserVoice.h>
 #import "SSRadialControl.h"
 #import "SSWorldDisplayController.h"
 #import <IFTTTSplashView.h>
@@ -76,23 +75,11 @@
 - (void) ss_willFinishLaunchingWithOptions:(NSDictionary *)options {
     [[IFTTTSplashView sharedSplash] showSplash];
 
-    MudrammerKeys *keys = [MudrammerKeys new];
-
     [self.class setupCoreData];
 
     [World createDefaultWorldsIfNecessary];
 
     [SSThemes sharedThemer]; // UIAppearance™ Inside®
-
-    // uservoice
-    UVConfig *uvconfig = [UVConfig configWithSite:keys.uSERVOICE_FORUM_SITE];
-    uvconfig.forumId = keys.uSERVOICE_FORUM_ID.integerValue;
-    uvconfig.customFields = @{
-        @"Version" : [NSString stringWithFormat:@"%@ (%@)",
-                      [UIApplication applicationVersion],
-                      [UIApplication applicationBuild]],
-    };
-    [UserVoice initialize:uvconfig];
 
     self.idleTimerDisabled = YES;
     self.applicationSupportsShakeToEdit = NO;

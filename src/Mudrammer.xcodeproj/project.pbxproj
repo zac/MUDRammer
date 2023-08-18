@@ -150,7 +150,6 @@
 		E9C9F03F1A86A8720046BA23 /* MRANSITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C9F03E1A86A8720046BA23 /* MRANSITests.m */; };
 		E9C9F0421A87F40A0046BA23 /* NSCharacterSet+SPLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C9F0411A87F40A0046BA23 /* NSCharacterSet+SPLAdditions.m */; };
 		E9C9F0451A87F5100046BA23 /* NSScanner+SPLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C9F0441A87F5100046BA23 /* NSScanner+SPLAdditions.m */; };
-		E9CAA2AD1ABE084800E36BE3 /* SPLHandoffWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CAA2AC1ABE084800E36BE3 /* SPLHandoffWebViewController.m */; };
 		E9CAA2AF1ABE53EE00E36BE3 /* MRLoggingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CAA2AE1ABE53EE00E36BE3 /* MRLoggingTests.m */; };
 		E9CAA2B21ABF346D00E36BE3 /* UINavigationController+SPLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CAA2B11ABF346D00E36BE3 /* UINavigationController+SPLAdditions.m */; };
 		E9CAA3081ABF9A8A00E36BE3 /* animatedead.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9CAA2B41ABF9A8A00E36BE3 /* animatedead.wav */; };
@@ -496,8 +495,6 @@
 		E9C9F0411A87F40A0046BA23 /* NSCharacterSet+SPLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCharacterSet+SPLAdditions.m"; sourceTree = "<group>"; };
 		E9C9F0431A87F5100046BA23 /* NSScanner+SPLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScanner+SPLAdditions.h"; sourceTree = "<group>"; };
 		E9C9F0441A87F5100046BA23 /* NSScanner+SPLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScanner+SPLAdditions.m"; sourceTree = "<group>"; };
-		E9CAA2AB1ABE084800E36BE3 /* SPLHandoffWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLHandoffWebViewController.h; sourceTree = "<group>"; };
-		E9CAA2AC1ABE084800E36BE3 /* SPLHandoffWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLHandoffWebViewController.m; sourceTree = "<group>"; };
 		E9CAA2AE1ABE53EE00E36BE3 /* MRLoggingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRLoggingTests.m; sourceTree = "<group>"; };
 		E9CAA2B01ABF346D00E36BE3 /* UINavigationController+SPLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SPLAdditions.h"; sourceTree = "<group>"; };
 		E9CAA2B11ABF346D00E36BE3 /* UINavigationController+SPLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SPLAdditions.m"; sourceTree = "<group>"; };
@@ -857,8 +854,6 @@
 			children = (
 				5E786E8F182211DD00557673 /* Client */,
 				5E786E94182211DD00557673 /* Settings */,
-				E9CAA2AB1ABE084800E36BE3 /* SPLHandoffWebViewController.h */,
-				E9CAA2AC1ABE084800E36BE3 /* SPLHandoffWebViewController.m */,
 				5E23520819CD29B30052F79F /* SPLNotificationManager.h */,
 				5E23520919CD29B30052F79F /* SPLNotificationManager.m */,
 				5E786EA1182211DD00557673 /* SSWelcomeViewController.h */,
@@ -1241,7 +1236,8 @@
 						TestTargetID = 5E591C781634C80C00F2EB9F;
 					};
 					5E591C781634C80C00F2EB9F = {
-						DevelopmentTeam = 4YFMUNMLU8;
+						DevelopmentTeam = 32R66SNDGS;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -1405,31 +1401,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MUDRammer/Pods-MUDRammer-resources.sh",
-				"${PODS_ROOT}/TOWebViewController/TOWebViewController/de.lproj",
-				"${PODS_ROOT}/TOWebViewController/TOWebViewController/en.lproj",
-				"${PODS_ROOT}/TOWebViewController/TOWebViewController/es.lproj",
-				"${PODS_ROOT}/TOWebViewController/TOWebViewController/fr.lproj",
-				"${PODS_ROOT}/TOWebViewController/TOWebViewController/ja.lproj",
-				"${PODS_ROOT}/TOWebViewController/TOWebViewController/ko.lproj",
-				"${PODS_ROOT}/TOWebViewController/TOWebViewController/pl.lproj",
-				"${PODS_ROOT}/TOWebViewController/TOWebViewController/zh-Hans.lproj",
-				"${PODS_ROOT}/TOWebViewController/TOWebViewController/zh-Hant.lproj",
 				"${PODS_ROOT}/VTAcknowledgementsViewController/VTAcknowledgementsViewController.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/uservoice-iphone-sdk/UserVoice.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/de.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fr.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ja.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ko.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pl.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hant.lproj",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VTAcknowledgementsViewController.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UserVoice.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1563,7 +1539,6 @@
 				5EA806BB1645F401008D5A9E /* CMFontStyleSelectTableViewController.m in Sources */,
 				5E786EDA1822122B00557673 /* SSWorldCell.m in Sources */,
 				5E004DA5194D53DA00EE1448 /* SSAttributedLineGroup.m in Sources */,
-				E9CAA2AD1ABE084800E36BE3 /* SPLHandoffWebViewController.m in Sources */,
 				5EB9A01018C3DB7100FD8076 /* SSGrowingTextView.m in Sources */,
 				5EA806BF1645F401008D5A9E /* CMUpDownControl.m in Sources */,
 				E9C9F0451A87F5100046BA23 /* NSScanner+SPLAdditions.m in Sources */,
@@ -1849,9 +1824,11 @@
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Mudrammer/Supporting Files/MUDRammer.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMPRESS_PNG_FILES = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32R66SNDGS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -1880,10 +1857,13 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				INFOPLIST_FILE = "Mudrammer/Supporting Files/Mudrammer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacwhite.theMUDRammer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SPLAppIconSuffix = Debug;
 				WARNING_CFLAGS = (
 					"-Wunreachable-code",
@@ -1926,10 +1906,12 @@
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Mudrammer/Supporting Files/MUDRammer.entitlements";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32R66SNDGS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -1958,9 +1940,12 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				INFOPLIST_FILE = "Mudrammer/Supporting Files/Mudrammer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacwhite.theMUDRammer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SPLAppIconSuffix = Release;
 				WARNING_CFLAGS = (
 					"-Wunreachable-code",

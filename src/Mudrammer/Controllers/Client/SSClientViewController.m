@@ -21,7 +21,6 @@
 #import "SSWorldListViewController.h"
 #import "SSWorldDisplayController.h"
 #import "JSQSystemSoundPlayer+SSAdditions.h"
-#import <UserVoice.h>
 #import <Masonry.h>
 #import "SPLWorldTickerManager.h"
 #import "SPLMUDTitleView.h"
@@ -29,7 +28,6 @@
 #import "SSClientViewController+Interactions.h"
 #import "SSTextTableView.h"
 #import "SSTGAEditor.h"
-#import "SPLHandoffWebViewController.h"
 #import "SPLTimerManager.h"
 
 #define kObservedProperties         @[ kThemeFontSize, kThemeFontName ]
@@ -655,9 +653,6 @@ typedef void (^SPLSettingsCloseBlock) (void);
         if (![[UIDevice currentDevice] isIPad]) {
             [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:YES];
         }
-
-        [UserVoice setDelegate:self];
-        [UserVoice presentUserVoiceInterfaceForParentViewController:self];
     }];
 }
 
